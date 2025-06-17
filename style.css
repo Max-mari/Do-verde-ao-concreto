@@ -87,12 +87,20 @@ main {
 
 
 /* Imagens sem cor no hover */
-img:hover {
-    filter: grayscale(100%);
-o
- .banner img:hover {
-  filter: none !important;
+
+@media (max-width: 768px) {
+  .banner img {
+    height: 250px;
+  }
+
+  .texto-banner {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }
+
+.banner img:hover {
+  filter: none !important;
 }
 
 /* Estilo das seções de receita */
