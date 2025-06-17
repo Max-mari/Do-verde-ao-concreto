@@ -89,6 +89,10 @@ main {
 /* Imagens sem cor no hover */
 img:hover {
     filter: grayscale(100%);
+o
+ .banner img:hover {
+  filter: none !important;
+}
 }
 
 /* Estilo das seções de receita */
