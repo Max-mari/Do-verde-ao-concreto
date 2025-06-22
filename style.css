@@ -64,6 +64,10 @@ main {
   margin-bottom:
 }
 
+ section {
+  scroll-margin-top: 100px; /* Ajuste conforme altura do menu */
+}
+
 .texto-banner {
   position: absolute;
   top: 50%;
